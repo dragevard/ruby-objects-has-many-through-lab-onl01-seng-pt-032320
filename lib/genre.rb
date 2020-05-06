@@ -4,7 +4,7 @@ class Genre
   
   def initialize(name)
     @name = name 
-    @@all << name 
+    @@all << self
   end 
   
   @@all = [] 
